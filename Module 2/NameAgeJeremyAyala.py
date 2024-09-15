@@ -2,16 +2,16 @@
 
 # Take user's name as in input and store into user_name variable
 
-user_name = input("What is your name?: ")
+userName = input("What is your name?: ")
 
 # take user's year of birth as inout
 
-user_age = input("How old are you?:")
+userAge = input("How old are you?:")
 
 # Logic to subtract user age from current year to get yeaar of birth
 
-user_yob = int(2024) - int(user_age)
+userYob = int(2024) - int(userAge)
 
 # Returning the input
 
-print('Hello', user_name, '! You were born in ', user_yob, '.')
+print('Hello', userName, '! You were born in ', userYob, '.')
