@@ -4,7 +4,7 @@
 
 user_name = input("What is your name?: ")
 
-#take user's year of birth as inout
+# take user's year of birth as inout
 
 user_age = input("How old are you?:")
 
@@ -14,4 +14,4 @@ user_yob = int(2024) - int(user_age)
 
 # Returning the input
 
-print('Hello', user_name, '! You were born in ', user_yob,'.')
+print('Hello', user_name, '! You were born in ', user_yob, '.')
