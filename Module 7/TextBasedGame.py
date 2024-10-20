@@ -27,6 +27,10 @@ def get_item(current_land, lands, inventory):
     else:
         print("There's nothing to pick up here.")
 
+def display_welcome_message(current_land, inventory):
+    print(f'\nWelcome to {current_land}!')
+    print(f'Here is what you have in your bag: {inventory}')
+
 # defining main function
 
 def main():
@@ -68,9 +72,8 @@ def main():
                 print('Thank you for playing!')
             break
 
-        # Print the current land and inventory
-        print(f'\nWelcome to {current_land}!')
-        print(f'Here is what you have in your bag: {inventory}')
+        # Call to function to display current status
+        display_welcome_message(current_land, inventory)
 
         # tell the user if there is an item in the land
         if 'item' in lands[current_land]:
