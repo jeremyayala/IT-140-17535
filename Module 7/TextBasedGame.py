@@ -31,6 +31,7 @@ def display_welcome_message(current_land, inventory):
     print(f'\nWelcome to {current_land}!')
     print(f'Here is what you have in your bag: {inventory}')
 
+
 # defining main function
 
 def main():
